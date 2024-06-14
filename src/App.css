@@ -1,0 +1,12 @@
+/* styles.css */
+
+body {
+    /* Set background photo */
+    background-image: url("C:\Users\navee\OneDrive\Desktop\wp4770089.jpg"); 
+  
+    /* Adjust background properties */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed; /* Fix the background image so it doesn't scroll */
+}

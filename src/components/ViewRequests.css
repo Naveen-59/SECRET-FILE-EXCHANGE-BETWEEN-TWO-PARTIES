@@ -1,0 +1,60 @@
+
+  .view-requests-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .request-list {
+    margin-top: 20px;
+  }
+  
+  .request-card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .request-details p {
+    margin: 5px 0;
+  }
+  
+  .request-actions button {
+    padding: 8px 12px;
+    margin-left: 8px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .request-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  .loading-message {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+  }
+  
